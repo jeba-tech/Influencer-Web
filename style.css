@@ -111,3 +111,58 @@ margin-top: 0;
       margin-left: 14px;
       margin-top: 0;
 }
+.more a{
+      font-size: 16px;
+      text-decoration: none;
+      color: rgba(224, 44, 109, 0.87);
+    
+
+}
+.more{
+      margin-top: 50px;
+      margin-left: 1144px;
+
+}
+
+/* contact-us */
+
+.contact-heading{
+      text-align: center;
+     
+}
+.contact-us{
+      background-color: rgb(237, 239, 241);
+      width: 50%;
+      height: 50%;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.5);
+      border-radius: 5px;
+      
+      margin-left: 340px;
+      padding: 40px;
+
+      margin-bottom: 40px;
+}
+#fname{
+      padding: 8px;
+      margin-bottom: 20px;
+}
+#email{
+      padding: 8px;
+      margin-bottom: 20px;
+}
+
+#Massage{
+      padding: 8px;
+      margin-bottom: 20px;
+}
+input[type=submit]{
+      padding: 10px 20px;
+      border-radius: 10px;
+      color: white;
+      background-color:  rgba(117, 117, 117, 0.87);
+      cursor: pointer;
+      font-size: 16px;
+}
