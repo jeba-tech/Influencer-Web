@@ -56,6 +56,11 @@ button .fa-arrow-right{
       width: 16px;
       height: 14px;
 }
+.half-width button:hover{
+      background-color: lightslategray;
+     
+      
+}
 /* popular-collection-section */
 .popular-column{
       display: grid;
@@ -79,6 +84,11 @@ box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
 border-radius: 5px;
 
 
+}
+.box-1:hover{
+      background-color: lightslategray;
+      cursor: pointer;
+      
 }
 
 .box-1 img{
@@ -131,6 +141,11 @@ margin-top: 0;
       margin-top: 50px;
       margin-left: 1144px;
 
+}
+.more a:hover{
+     
+    
+      color: lightseagreen;
 }
 .more a i{
       margin-left: 15px;
@@ -248,7 +263,7 @@ height: 239px;
       }
      
       .contact-us{
-            margin-left: 65px;
+            margin-left: 110px;
             margin-right:0 ;
       }
       nav h2{
@@ -311,7 +326,7 @@ height: 239px;
       }
      
       .contact-us{
-            margin-left: 250px;
+            margin-left: 230px;
             padding: 40px 0px;
             width: 40%;
       }
