@@ -1,6 +1,11 @@
+/*fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Kite+One&family=Lobster&family=Nunito:wght@500&family=Poppins:wght@500;600&family=Rochester&family=Yeseva+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Kite+One&family=Lobster&family=Nunito:wght@500&family=Poppins:wght@500;600&family=Rochester&family=Yeseva+One&display=swap');
 body{
       margin: 0;
       background-color: white;
+      font-family: 'Poppins', sans-serif;
 }
 
 /* nav-section */
@@ -24,6 +29,7 @@ nav h2{
 .half-width h1{
       font-size: 52px;
       margin-left: 120px;
+      font-weight: bold;
       
 }
 .half-width p{
@@ -33,6 +39,7 @@ nav h2{
 button{
       margin-left: 120px;
       background-color:#E02C6D;
+      margin-top: 16px;
       
       border-radius: 41px;
       padding: 10px 56px 10px 24px;
@@ -41,4 +48,66 @@ button{
 button a{
       text-decoration: none;
       color: white;
+}
+/* popular-collection-section */
+.popular-column{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 30px;
+}
+.popular-section h2{
+      font-size: 28px;
+      text-align: center;
+}
+.box-1{
+      width: 329px;
+height: 476px;
+box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+border-radius: 5px;
+
+
+}
+.box-container{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.box-1 img{
+      width: 300px;
+height: 256px;
+margin: 16px;
+}
+.box1-info h4{
+      font-size: 28px;
+     margin-top: 0;
+     margin-left: 14px;
+     margin-bottom: 0;
+}
+.box1-info h5{
+      font-size: 24px;
+      font-family: 'Inter', sans-serif;
+      margin-top: 6px;
+      margin-left: 14px;
+      margin-bottom: 0;
+}
+.box1-info span{
+      width: 11.07px;
+height: 10.32px;
+color: #FB8200;
+margin-bottom: 0;
+margin-left: 14px;
+}
+
+.box1-info h6{
+      font-size: 14px;
+color: #FB8200;
+color: #5E6366;
+margin-bottom: 0;
+margin-top: 0;
+}
+.box1-info p{
+      font-size: 14px;
+      color: #787885;
+      margin-left: 14px;
+      margin-top: 0;
 }
