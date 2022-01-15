@@ -1,0 +1,44 @@
+body{
+      margin: 0;
+      background-color: white;
+}
+
+/* nav-section */
+nav h2{
+      margin-left: 120px;
+      margin-top: 87px;
+      margin-bottom: 145px;
+}
+/* home-section */
+.home{
+      display: flex;
+}
+
+.camera{
+      width: 440px;
+      height: 414px;
+      margin-right: 185px;
+    
+      margin-left: 133px;
+}
+.half-width h1{
+      font-size: 52px;
+      margin-left: 120px;
+      
+}
+.half-width p{
+      font-size: 16px;
+      margin-left: 120px;
+}
+button{
+      margin-left: 120px;
+      background-color:#E02C6D;
+      
+      border-radius: 41px;
+      padding: 10px 56px 10px 24px;
+    
+}
+button a{
+      text-decoration: none;
+      color: white;
+}
