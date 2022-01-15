@@ -42,12 +42,19 @@ button{
       margin-top: 16px;
       
       border-radius: 41px;
-      padding: 10px 56px 10px 24px;
+      padding: 10px 27px 10px 24px;
     
 }
 button a{
       text-decoration: none;
       color: white;
+      font-size: 16px;
+}
+button .fa-arrow-right{
+      color: white;
+      margin-left: 15px;
+      width: 16px;
+      height: 14px;
 }
 /* popular-collection-section */
 .popular-column{
@@ -123,11 +130,16 @@ margin-top: 0;
       margin-left: 1144px;
 
 }
-
+.more a i{
+      margin-left: 15px;
+      width: 16px;
+      height: 14px;
+}
 /* contact-us */
 
 .contact-heading{
       text-align: center;
+      margin-bottom: 50px;
      
 }
 .contact-us{
@@ -165,4 +177,43 @@ input[type=submit]{
       background-color:  rgba(117, 117, 117, 0.87);
       cursor: pointer;
       font-size: 16px;
+}
+
+/* footer-section */
+footer{
+      background-color: #0A0826;
+      margin-top: 100px;
+height: 239px;
+}
+.footer h2{
+      color: white;
+      font-size: 24px;
+     margin: 4px;
+     padding-top: 50px;
+}
+.footer h4{
+      color: white;
+      font-size: 14px;
+    margin: 2px;
+}
+.footer h5{
+      color: white;
+      font-size: 14px;
+      margin: 2px;
+}
+.footer{
+      text-align: center;
+}
+.social-media{
+      text-align: center;
+    
+    
+     
+}
+.social-media a i{
+      text-align: center;
+      color: white;
+  text-decoration: none;
+  margin: 16px;
+  
 }
