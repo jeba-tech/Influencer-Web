@@ -54,6 +54,17 @@ nav li a {
 
 }
 
+/* brand-section */
+.brand {
+      margin-left: 230px;
+      margin-top: 70px;
+      margin-bottom: 30px;
+}
+
+.brand img {
+      margin-right: 70px;
+}
+
 /* home-section */
 .home {
       display: flex;
@@ -108,6 +119,13 @@ button .fa-arrow-right {
 
 }
 
+.arrow i {
+      color: cadetblue;
+      margin-left: 12px;
+      font-size: 19px;
+
+}
+
 /* popular-collection-section */
 .popular-column {
       display: grid;
@@ -125,6 +143,8 @@ button .fa-arrow-right {
 .popular-section h2 {
       font-size: 28px;
       text-align: center;
+      margin-top: 100px;
+      margin-bottom: 50px;
 }
 
 .box-1 {
