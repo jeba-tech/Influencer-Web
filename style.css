@@ -52,6 +52,7 @@ nav li a {
       text-decoration: none;
       color: #0A0826;
       font-size: 20px;
+
 }
 
 /* home-section */
@@ -355,12 +356,47 @@ footer {
             margin-right: 0;
       }
 
-      nav h2 {
+      #fname {
 
-            margin-left: 0;
-            text-align: center;
-            margin-bottom: 10px;
-            margin-right: 0;
+            width: 210px;
+
+      }
+
+      #email {
+            width: 210px;
+
+      }
+
+      #Massage {
+            width: 210px;
+
+      }
+
+      nav h2 {
+            margin-top: 87px;
+            margin-bottom: 100px;
+            font-size: 16px;
+
+      }
+
+
+      nav ul {
+            margin-left: 30px;
+            font-size: 10px;
+
+      }
+
+      nav li {
+            margin-right: 4px;
+            padding: 1px 5px;
+
+      }
+
+      nav li a {
+            text-decoration: none;
+            color: #0A0826;
+            font-size: 12px;
+
       }
 
       .half-width p {
@@ -408,6 +444,18 @@ footer {
 
       }
 
+      nav h2 {
+            margin-top: 37px;
+            margin-bottom: 100px;
+
+      }
+
+      nav ul {
+            margin-left: 30px;
+            margin-top: 37px;
+
+      }
+
       .half-width h1 {
 
 
@@ -423,9 +471,25 @@ footer {
       }
 
       .contact-us {
-            margin-left: 240px;
+            margin-left: 250px;
             padding: 40px 0px;
             width: 40%;
+      }
+
+      #fname {
+
+            width: 210px;
+
+      }
+
+      #email {
+            width: 210px;
+
+      }
+
+      #Massage {
+            width: 210px;
+
       }
 
       nav h2 {
