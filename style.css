@@ -4,293 +4,383 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Kite+One&family=Lobster&family=Nunito:wght@500&family=Poppins:wght@500;600&family=Rochester&family=Yeseva+One&display=swap');
 
 /* utilities */
-body{
+body {
       margin: 0;
       background-color: white;
       font-family: 'Poppins', sans-serif;
 }
 
-/* nav-section */
-nav h2{
-      margin-left: 120px;
-      margin-top: 87px;
-      margin-bottom: 145px;
+.head-title {
+      color: cadetblue;
 }
+
+/* nav-section */
+nav h2 {
+      margin-top: 57px;
+      margin-bottom: 100px;
+      font-size: 40px;
+      font-family: cursive;
+      margin-left: 40px;
+}
+
+nav {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+}
+
+nav ul {
+      display: flex;
+      margin-left: 530px;
+
+}
+
+nav li {
+      list-style: none;
+      margin-right: 5px;
+      padding: 5px 20px;
+      border-radius: 7px;
+
+}
+
+nav li:hover {
+      background-color: #7c969b;
+
+}
+
+nav li a {
+      text-decoration: none;
+      color: #0A0826;
+      font-size: 20px;
+}
+
 /* home-section */
-.home{
+.home {
       display: flex;
 }
 
-.camera{
+.camera {
       width: 440px;
       height: 414px;
       margin-right: 185px;
-    
+
       margin-left: 133px;
 }
-.half-width h1{
+
+.half-width h1 {
       font-size: 52px;
       margin-left: 120px;
       font-weight: bold;
-      
+
 }
-.half-width p{
+
+.half-width p {
       font-size: 16px;
       margin-left: 120px;
 }
-button{
+
+button {
       margin-left: 120px;
-      background-color:#E02C6D;
+      background-color: rgb(28, 94, 96);
       margin-top: 16px;
-      
+
       border-radius: 41px;
       padding: 10px 27px 10px 24px;
-    
+
 }
-button a{
+
+button a {
       text-decoration: none;
       color: white;
       font-size: 16px;
 }
-button .fa-arrow-right{
+
+button .fa-arrow-right {
       color: white;
       margin-left: 15px;
       width: 16px;
       height: 14px;
 }
-.half-width button:hover{
+
+.half-width button:hover {
       background-color: lightslategray;
-     
-      
+
+
 }
+
 /* popular-collection-section */
-.popular-column{
+.popular-column {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       grid-gap: 30px;
-      
+
 }
-.box-container{
+
+.box-container {
       display: flex;
       justify-content: center;
       align-items: center;
- }
-.popular-section h2{
+}
+
+.popular-section h2 {
       font-size: 28px;
       text-align: center;
 }
-.box-1{
+
+.box-1 {
       width: 329px;
-height: 476px;
-box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
-border-radius: 5px;
+      height: 476px;
+      box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+      border-radius: 5px;
+      transition: padding 1s;
 
 
 }
-.box-1:hover{
-      background-color: lightslategray;
+
+.box-1:hover {
+      background-color: rgb(202, 209, 216);
       cursor: pointer;
-      
+      padding: 10px;
+
 }
 
-.box-1 img{
+.box-1 img {
       width: 300px;
-height: 256px;
-margin: 16px;
+      height: 256px;
+      margin: 16px;
 }
-.box1-info h4{
+
+.box1-info h4 {
       font-size: 28px;
-     margin-top: 0;
-     margin-left: 14px;
-     margin-bottom: 0;
+      margin-top: 0;
+      margin-left: 14px;
+      margin-bottom: 0;
 }
-.box1-info h5{
+
+.box1-info h5 {
       font-size: 24px;
       font-family: 'Inter', sans-serif;
       margin-top: 6px;
       margin-left: 14px;
       margin-bottom: 0;
 }
-.box1-info span{
+
+.box1-info span {
       width: 11.07px;
-height: 10.32px;
-color: #FB8200;
-margin-bottom: 0;
-margin-left: 14px;
+      height: 10.32px;
+      color: #FB8200;
+      margin-bottom: 0;
+      margin-left: 14px;
 }
 
-.box1-info h6{
+.box1-info h6 {
       font-size: 14px;
-color: #FB8200;
-color: #5E6366;
-margin-bottom: 0;
-margin-top: 0;
+      color: #FB8200;
+      color: #5E6366;
+      margin-bottom: 0;
+      margin-top: 0;
 }
-.box1-info p{
+
+
+
+.box1-info p {
       font-size: 14px;
       color: #787885;
       margin-left: 14px;
       margin-top: 0;
 }
-.more a{
+
+
+.more a {
       font-size: 16px;
       text-decoration: none;
-      color: rgba(224, 44, 109, 0.87);
-    
+      color: rgb(28, 94, 96);
+
 
 }
-.more{
+
+.more {
       margin-top: 50px;
       margin-left: 1144px;
 
 }
-.more a:hover{
-     
-    
+
+.more a:hover {
+
+
       color: lightseagreen;
 }
-.more a i{
+
+.more a i {
       margin-left: 15px;
       width: 16px;
       height: 14px;
 }
+
 /* contact-us */
 
-.contact-heading{
+.contact-heading {
       text-align: center;
       margin-bottom: 50px;
-     
+      font-size: 28px;
+
 }
-.contact-us{
+
+.contact-us {
       background-color: rgb(237, 239, 241);
       width: 50%;
       height: 50%;
-      display:flex;
+      display: flex;
       justify-content: center;
       align-items: center;
       box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.5);
       border-radius: 5px;
-      
+
       margin-left: 340px;
       padding: 40px;
 
       margin-bottom: 40px;
 }
-#fname{
-      padding: 8px;
+
+#fname {
+      padding: 10px;
       margin-bottom: 20px;
+      width: 310px;
+
 }
-#email{
-      padding: 8px;
+
+#email {
+      padding: 10px;
+      width: 310px;
+
       margin-bottom: 20px;
 }
 
-#Massage{
-      padding: 8px;
+#Massage {
+      width: 310px;
+      height: 10px;
+      padding: 10px;
       margin-bottom: 20px;
 }
-input[type=submit]{
+
+input[type=submit] {
       padding: 10px 20px;
       border-radius: 10px;
       color: white;
-      background-color:  rgba(117, 117, 117, 0.87);
+      background-color: rgba(117, 117, 117, 0.87);
       cursor: pointer;
       font-size: 16px;
 }
 
 /* footer-section */
-footer{
+footer {
       background-color: #0A0826;
       margin-top: 100px;
-height: 239px;
+      height: 239px;
 }
-.footer h2{
+
+.footer h2 {
       color: white;
       font-size: 24px;
-     margin: 4px;
-     padding-top: 50px;
+      margin: 4px;
+      padding-top: 50px;
 }
-.footer h4{
-      color: white;
-      font-size: 14px;
-    margin: 2px;
-}
-.footer h5{
+
+.footer h4 {
       color: white;
       font-size: 14px;
       margin: 2px;
 }
-.footer{
+
+.footer h5 {
+      color: white;
+      font-size: 14px;
+      margin: 2px;
+}
+
+.footer {
       text-align: center;
 }
-.social-media{
+
+.social-media {
       text-align: center;
-    
-    
-     
+
+
+
 }
-.social-media a i{
+
+.social-media a i {
       text-align: center;
       color: white;
-  text-decoration: none;
-  margin: 16px;
-  
+      text-decoration: none;
+      margin: 16px;
+
 }
 
 /* media-queries */
 
 /* mobile-devices */
 
-@media only screen and (max-width:688px){
-          html, body {
+@media only screen and (max-width:688px) {
+
+      html,
+      body {
             overflow-x: hidden;
-          }
-          body {
+      }
+
+      body {
             position: relative
-          }
-      .home{
+      }
+
+      .home {
             display: flex;
             flex-direction: column;
-           
-            
+
+
       }
-      .half-width h1{
-            margin-left:0 ;
-      text-align: center;
-      margin-right:0 ;
+
+      .half-width h1 {
+            margin-left: 0;
+            text-align: center;
+            margin-right: 0;
       }
-      .popular-column{
+
+      .popular-column {
             display: grid;
-            grid-template-columns: repeat(1,1fr);
+            grid-template-columns: repeat(1, 1fr);
       }
-     
-      .contact-us{
+
+      .contact-us {
             margin-left: 70px;
-            margin-right:0 ;
+            margin-right: 0;
       }
-      nav h2{
-            
+
+      nav h2 {
+
             margin-left: 0;
             text-align: center;
             margin-bottom: 10px;
-            margin-right:0 ;
+            margin-right: 0;
       }
-      .half-width p{
+
+      .half-width p {
             text-align: center;
             margin-left: 35px;
             margin-right: 35px;
       }
-      button{
-            margin-left:  115px;
+
+      button {
+            margin-left: 115px;
             text-align: center;
             margin-bottom: 50px;
       }
-         .camera{
-               margin-left: 0;
-               width: 20%;
-               height: 20%;
-              
-         }
+
+      .camera {
+            margin-left: 0;
+            width: 20%;
+            height: 20%;
+
+      }
 }
 
 
@@ -299,61 +389,69 @@ height: 239px;
 
 /* tablet-devices */
 
-@media only screen and (min-width:688px) and (max-width:922px){
-      html, body {
+@media only screen and (min-width:688px) and (max-width:922px) {
+
+      html,
+      body {
             overflow-x: hidden;
-          }
-          body {
+      }
+
+      body {
             position: relative
-          }
-      
-      
-      .home{
+      }
+
+
+      .home {
             display: flex;
             flex-direction: column;
-           
-            
-      }
-      .half-width h1{
 
-          
-            margin-right:70px ;
-           
-      text-align: center;
-      
+
       }
-      .popular-column{
+
+      .half-width h1 {
+
+
+            margin-right: 70px;
+
+            text-align: center;
+
+      }
+
+      .popular-column {
             display: grid;
-            grid-template-columns: repeat(2,1fr);
+            grid-template-columns: repeat(2, 1fr);
       }
-     
-      .contact-us{
+
+      .contact-us {
             margin-left: 240px;
             padding: 40px 0px;
             width: 40%;
       }
-      nav h2{
-            
+
+      nav h2 {
+
             margin-left: 50px;
             text-align: center;
             margin-bottom: 10px;
       }
-      .half-width p{
+
+      .half-width p {
             text-align: center;
             margin-left: 155px;
-            margin-right:145px;
-            
+            margin-right: 145px;
+
       }
-      button{
+
+      button {
             margin-left: 320px;
             text-align: center;
             margin-bottom: 50px;
       }
-         
-      .camera{
+
+      .camera {
             margin-left: 205px;
-               width: 20%;
-               height: 20%;
-              
-         }
+            width: 20%;
+            height: 20%;
+
+      }
 }
